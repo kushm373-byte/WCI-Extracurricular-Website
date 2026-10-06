@@ -12,100 +12,151 @@
 
 <body>
 
+    <!-- NAVIGATION -->
     <header>
         <nav class="navbar">
 
-            <div class="logo">
+            <a href="index.html" class="logo">
                 WCI Extracurriculars
-            </div>
+            </a>
 
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="clubs.html">Clubs</a></li>
-                <li><a href="athletics.html">Athletics</a></li>
-                <li><a href="arts.html">Arts</a></li>
+                <li><a href="#">Clubs</a></li>
+                <li><a href="#">Athletics</a></li>
+                <li><a href="#">Arts</a></li>
             </ul>
 
         </nav>
     </header>
 
 
+    <!-- HERO -->
     <section class="hero">
 
-        <h1>Welcome to WCI Extracurriculars!</h1>
+        <div class="hero-content">
 
-        <p>Explore Your Options</p>
+            <h1>Welcome to WCI Extracurriculars!</h1>
 
-        <input
-            type="text"
-            id="searchInput"
-            placeholder="Search for an extracurricular activity..."
-        >
+            <p>Explore Your Options</p>
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    placeholder="Search for an extracurricular..."
+                >
+
+                <button>Search</button>
+
+            </div>
+
+        </div>
 
     </section>
 
 
+    <!-- EVENTS -->
     <section class="section">
 
         <h2>This Week's Events</h2>
 
-        <p>
-            Check out what's happening this week at WCI.
+        <p class="section-intro">
+            Check out what's happening this week!
         </p>
+
+        <div class="event-container">
+
+            <div class="event-card">
+                <h3>Club Meetings</h3>
+                <p>Check announcements for upcoming club meetings.</p>
+            </div>
+
+            <div class="event-card">
+                <h3>Athletics</h3>
+                <p>Check the WCI athletics schedule for upcoming games.</p>
+            </div>
+
+            <div class="event-card">
+                <h3>Arts Events</h3>
+                <p>Discover upcoming performances and arts events.</p>
+            </div>
+
+        </div>
 
     </section>
 
 
+    <!-- EXTRACURRICULARS -->
     <section class="section">
 
         <h2>Our Offered Extracurriculars</h2>
 
-        <p>
+        <p class="section-intro">
             Take a look at our wide variety of activities!
         </p>
 
         <div class="category-container">
 
+
+            <!-- CLUBS -->
             <div class="category-card">
+
+                <div class="card-icon">
+                    📚
+                </div>
 
                 <h3>Our Clubs</h3>
 
                 <p>
-                    Explore clubs offered at WCI.
+                    Explore the many clubs offered at
+                    Waterloo Collegiate Institute.
                 </p>
 
-                <a href="clubs.html">
-                    View Clubs
+                <a href="#">
+                    Explore Clubs →
                 </a>
 
             </div>
 
 
+            <!-- ATHLETICS -->
             <div class="category-card">
+
+                <div class="card-icon">
+                    🏆
+                </div>
 
                 <h3>Our Sports Teams</h3>
 
                 <p>
-                    Explore WCI athletics.
+                    Discover WCI's sports teams and
+                    athletic opportunities.
                 </p>
 
-                <a href="athletics.html">
-                    View Athletics
+                <a href="#">
+                    Explore Athletics →
                 </a>
 
             </div>
 
 
+            <!-- ARTS -->
             <div class="category-card">
+
+                <div class="card-icon">
+                    🎨
+                </div>
 
                 <h3>Our Arts</h3>
 
                 <p>
-                    Explore WCI's arts programs.
+                    Discover music, drama, visual arts,
+                    and other creative opportunities.
                 </p>
 
-                <a href="arts.html">
-                    View Arts
+                <a href="#">
+                    Explore Arts →
                 </a>
 
             </div>
@@ -115,75 +166,95 @@
     </section>
 
 
-    <section class="section">
+    <!-- QUIZ -->
+    <section class="quiz-section">
 
-        <h2>Extracurriculars Quiz</h2>
+        <div class="quiz-content">
 
-        <p>
-            Find out which extracurricular category might
-            be right for you.
-        </p>
+            <h2>Not Sure What to Join?</h2>
 
-        <button>
-            Take the Quiz
-        </button>
+            <p>
+                Take our extracurricular quiz and find
+                activities that match your interests!
+            </p>
+
+            <button class="quiz-button">
+                Take the Quiz
+            </button>
+
+        </div>
 
     </section>
 
 
+    <!-- ABOUT -->
     <section class="section">
 
         <h2>Extracurriculars at WCI</h2>
 
-        <h3>
-            Why should you become involved?
-        </h3>
-
-        <p>
-            Extracurricular activities are a great way to meet
-            other students, develop new skills, discover new
-            interests, and become involved in the school community.
+        <p class="section-intro">
+            Why should you become involved with WCI
+            extracurricular activities?
         </p>
+
+        <div class="about-text">
+
+            <p>
+                Extracurricular activities are a great way
+                to interact with other students who share
+                similar interests.
+            </p>
+
+            <p>
+                They can help you develop new skills,
+                discover new interests, build friendships,
+                and become more involved in the school
+                community.
+            </p>
+
+            <p>
+                Whether you are interested in academics,
+                athletics, leadership, technology, music,
+                arts, or something completely different,
+                there is an opportunity for you at WCI.
+            </p>
+
+        </div>
 
     </section>
 
 
-    <section class="section">
+    <!-- INTERESTS -->
+    <section class="section interests-section">
 
-        <h2>What are you interested in?</h2>
+        <h2>What Are You Interested In?</h2>
 
-        <div class="category-container">
+        <p class="section-intro">
+            Learn more about each category!
+        </p>
 
-            <div class="category-card">
+        <div class="interest-container">
 
+            <div class="interest-card">
                 <h3>Clubs</h3>
-
                 <p>
-                    Spaces to learn about things you love.
+                    Spaces to learn and talk about
+                    things you love.
                 </p>
-
             </div>
 
-
-            <div class="category-card">
-
+            <div class="interest-card">
                 <h3>Athletics</h3>
-
                 <p>
-                    Team sports and athletic activities.
+                    Join a team, compete, and stay active.
                 </p>
-
             </div>
 
-
-            <div class="category-card">
-
+            <div class="interest-card">
                 <h3>Arts</h3>
-
                 <p>
-                    Music, dance, acting, and more.
+                    Express yourself through creativity.
                 </p>
-
             </div>
 
         </div>
@@ -191,47 +262,63 @@
     </section>
 
 
+    <!-- FAQ -->
     <section class="section">
 
-        <h2>FAQ</h2>
+        <h2>Frequently Asked Questions</h2>
 
         <div class="faq">
 
-            <h3>How do I join a club?</h3>
+            <details>
+                <summary>How do I join a club?</summary>
 
-            <p>
-                Look for announcements and information about
-                club meetings at the beginning of the school year.
-            </p>
+                <p>
+                    Look for announcements about club
+                    meetings and contact the club leaders
+                    for more information.
+                </p>
 
-
-            <h3>How do I form a club?</h3>
-
-            <p>
-                Find a teacher supervisor and complete the
-                required club registration process.
-            </p>
+            </details>
 
 
-            <h3>Are there student awards for athletics?</h3>
+            <details>
+                <summary>How do I form a club?</summary>
 
-            <p>
-                WCI recognizes athletic achievement through
-                its athletic award system.
-            </p>
+                <p>
+                    Find a teacher who can supervise the club
+                    and follow the school's club registration
+                    process.
+                </p>
+
+            </details>
+
+
+            <details>
+                <summary>Are there athletic awards?</summary>
+
+                <p>
+                    WCI recognizes students for athletic
+                    participation and achievement.
+                </p>
+
+            </details>
 
         </div>
 
     </section>
 
 
+    <!-- FOOTER -->
     <footer>
 
+        <h3>WCI Extracurriculars</h3>
+
         <p>
-            WCI Extracurriculars
+            Explore. Participate. Get Involved.
         </p>
 
     </footer>
+
 
 </body>
 
